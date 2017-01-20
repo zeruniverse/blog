@@ -32,7 +32,7 @@ h3 {
 .page-container {
   max-width: 1000px;
   margin: 0 auto;
-  background-color: #f7f7f7;
+  background: url("/static/img/25.png") repeat fixed;
 }
 .page-heading {
   border-top: 2px solid #bbb;
