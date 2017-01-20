@@ -1,36 +1,8 @@
-title: 听雨人
-email: contact@zzeyu.com
-description: 听雨人 | 一些纯粹的思考
-baseurl: /
-url: http://www.rainaudience.net
+root: /
+permalink: /:year-:month/:title/
+markdown: rdiscount
+pygments: false
+paginate: 5
 
-sass:
-  style: compressed
+title: signifox's blog
 
-paginate: 12
-paginate_path: "/:num/"
-
-navigation:
-  - text: 博客
-    url: /
-  - text: 关于
-    url: /about.html
-  - text: 内容许可
-    url: /license.html
-
-read_more: 阅读全文
-env: production
-minify_html: false # Set to true only when it is production. Increase significant build time.
-
-# Build settings
-markdown: kramdown
-
-gems:
-  - jekyll-paginate
-  - jekyll-feed
-  
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENSE
