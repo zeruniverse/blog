@@ -31,7 +31,7 @@ h3 {
 }
 .page-container {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 2em auto;
   background: url("/static/img/25.png") repeat fixed;
 }
 .page-heading {
@@ -157,7 +157,7 @@ h3 {
   font-weight: 500;
   font-size: 13px;
   line-height: 1.5em;
-  padding: 1.5em .5em;
+  padding: 2em .5em;
   text-align: center;
 }
 .page-footer a {
@@ -455,8 +455,11 @@ h3 {
 		100%{opacity:0.17;transform:translate(160px,80px) scale(2) rotate(20deg);}
 	}
 	
-@media (max-width: 992px) {
+@media (max-width: 800px) {
   .page-container {
     margin: 0 auto;
+  }
+  .bbg{
+		display:none;
   }
 }
