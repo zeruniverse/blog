@@ -5,9 +5,9 @@ categories: jekyll
 tags:  markdown
 ---
 
-<h2 id="overview">概述</h2>
+## 概述
 
-<h3 id="philosophy">宗旨</h3>
+### 宗旨
 
 Markdown 的目标是实现「易读易写」。
 
