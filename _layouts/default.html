@@ -3,8 +3,6 @@
 <head>
     <meta charset="utf-8">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    <meta name="description" content="jelyll theme">
-    <meta name="author" content="hushaw">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/static/favicon.ico" rel="shortcut icon">
     <link href="/static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
@@ -18,15 +16,23 @@
      <div class="page-container">
      <div class="page-heading">
          <div class="page-brand">
-             <h1><a href="/">hushaw</a></h1>
-             <h2>Just another jekyll theme</h2>
+             <h1><a href="/">{ site.title }</a></h1>
+             <h2>一些纯粹的思考</h2>
          </div>
+		 <a href="/"><img id="hgimg" src="" width="100%" alt="{ site.title }"></a>
+		 <script>
+			var imgid=Math.floor((Math.random() * { site.hgimgcount }) + 1);
+			$("#hgimg").attr('src','/static/hgimg/'+imgid+'.jpg');
+		 </script>
          <div class="page-navbar">
              <div class="page-navbar-container">
                  <ul class="page-nav">
-                     <li><a href="/">Home</a></li>
-                     <li><a href="/archive.html">Archive</a></li>
-                     <li><a href="/about.html">About</a></li>
+                     <li><a href="/">博客</a></li>
+					 <li><a href="/about.html">关于</a></li>
+					 <li><a href="/license.html">内容许可</a></li>
+					 <li><a href="/categories.html">分类</a></li>
+                     <li><a href="/archive.html">归档</a></li>
+                     
                  </ul>
              </div>
          </div>

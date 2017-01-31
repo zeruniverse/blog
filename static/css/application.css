@@ -208,25 +208,13 @@ h3 {
   position: relative;
 }
 .read-more {
-  background: #d4dad8;
   display: inline-block;
   margin-top: 10px;
   padding: .4em .8em;
   text-decoration: none;
   float: right;
 }
-.read-more a {
-  color: #222;
-  text-decoration: none;
-}
-.read-more:hover,
-.read-more:focus {
-  background: #428bca;
-}
-.read-more:hover a,
-.read-more:focus a {
-  color: #fff;
-}
+
 .post-pager {
   margin-bottom: 5px;
   border-bottom: 1px dashed #aaa;
