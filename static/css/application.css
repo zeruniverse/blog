@@ -6,6 +6,7 @@
 body {
   font-family: "PT Serif", Georgia, "Microsoft YaHei", Arial, sans-serif;
   background: url("/static/img/bg.png") repeat fixed;
+  background-attachment:fixed;
 }
 li.L4 {
   list-style-type: none;
