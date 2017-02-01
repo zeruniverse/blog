@@ -23,7 +23,7 @@ permalink: /
         </span>
     </div>
     <div class="post-entry">
-        {{  post.content || split:'<!--more-->' | first }}
+        {{  post.excerpt }}
     </div>
     <div class="post-footer">
         <div class="read-more">
@@ -44,7 +44,7 @@ permalink: /
     {% if page_end > paginator.total_pages %}
             {% assign page_end = paginator.total_pages %}
     {% endif %}
-        <li><a href="/">第一页</a></li>
+        <li><a href="/">首页</a></li>
     {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
         <li><a href="/">&larr;</a></li>
@@ -77,9 +77,9 @@ permalink: /
         <li><a class="next" href="/page{{paginator.next_page}}">&rarr;</a></li>
     {% endif %}
     {% if paginator.page == 1 %}
-        <li><a href="/">最后页</a></li>
+        <li><a href="/">尾页</a></li>
     {% else %}
-        <li><a href="/page{{paginator.total_pages}}">最后页</a></li>
+        <li><a href="/page{{paginator.total_pages}}">尾页</a></li>
     {% endif %}
         <li><span>共{{ paginator.total_posts }}篇</span></li>
     </ul>
