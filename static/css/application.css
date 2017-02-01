@@ -62,6 +62,9 @@ h3 {
   font-size: 18px;
   margin: 1em 0 1.25em;
 }
+.post-entry{
+	margin-top:15px;
+}
 .page-navbar {
   margin: 0 auto 6px;
   overflow: hidden;
