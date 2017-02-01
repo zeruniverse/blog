@@ -146,28 +146,27 @@ hr{
   color: #222;
   text-decoration: none;
 }
-.page-content .post-meta {
+.post-meta {
   color: #666;
   clear: both;
   font-size: 13px;
   line-height: 18px;
 }
-.page-content .post-meta span {
+.post-meta span {
   margin-right: 4px;
   vertical-align: middle;
 }
-.page-content .post-meta a {
+.post-meta a {
   font-weight: 500;
 }
-.page-content .post-entry {
-  padding: 1.5em 0 0;
+.post-entry {
   font-size: 14px;
   overflow: hidden;
 }
-.page-content .post-entry blockquote p {
+.post-entry blockquote p {
   font-size: 15px;
 }
-.page-content .post-footer {
+.post-footer {
   clear: both;
   font-size: 15px;
   line-height: 20px;
