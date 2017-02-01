@@ -230,6 +230,14 @@ hr{
 .pager {
   list-style: none;
 }
+.stext{
+	color: #666;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    line-height: 2.6em;
+    text-transform: uppercase;
+}
 .pager li a {
   border: none;
   border-radius: 0;
