@@ -142,7 +142,7 @@ h3 {
 .page-content .post-entry {
   padding: 1.5em 0 0;
   font-size: 14px;
-  overflow:hidden;
+  overflow: hidden;
 }
 .page-content .post-entry blockquote p {
   font-size: 15px;
@@ -296,7 +296,7 @@ h3 {
     margin: 0 auto;
   }
   @media (max-width: 800px) {
-  .page-container {
+  body {
     margin: 0 auto;
 	background: url("/static/img/800pxbg.jpg") repeat fixed;
   }
