@@ -3,7 +3,8 @@ layout: default
 title: 主页
 permalink: /
 ---
-
+<div class="row">
+<div class="col-md-9 col-sm-12">
 {% for post in paginator.posts %}
 <div class="page-content">
     <div class="post-heading">
@@ -91,4 +92,13 @@ permalink: /
         <li><span>共{{ paginator.total_posts }}篇</span></li>
     </ul>
 </div>
-
+</div>
+<div class="col-md-3 col-sm-12">
+相关链接:
+<ul>
+{% for nav in site.navigation %}
+	<li><a href="{{nav.url}}">{{nav.text}}</a></li>
+{% endfor %}
+</ul>
+</div>
+</div>
