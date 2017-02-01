@@ -4,7 +4,7 @@ title: 主页
 permalink: /
 ---
 <div class="row">
-<div class="col-md-9 col-sm-12">
+<div class="col-md-8 col-sm-12">
 {% for post in paginator.posts %}
 <div class="page-content">
     <div class="post-heading">
@@ -31,7 +31,7 @@ permalink: /
 		{% endif %}
 	{% endif %}
     <div class="post-entry">
-        {{  post.excerpt }}
+        {{  post.excerpt }}...
     </div>
     <div class="post-footer">
         <div class="read-more">
@@ -93,8 +93,8 @@ permalink: /
     </ul>
 </div>
 </div>
-<div class="col-md-3 col-sm-12">
-<div class="page-content">
+<div class="col-md-4 col-sm-12">
+<div class="page-content" style="border-bottom:0;">
     <div class="post-heading">
         相关链接
     </div>
@@ -102,6 +102,30 @@ permalink: /
 {% for nav in site.navigation %}
 	<li><a href="{{nav.url}}">{{nav.text}}</a></li>
 {% endfor %}
+</ul>
+<div class="post-heading">
+        分类目录
+</div>
+<ul class="sqlist">
+{% for cat in site.categories %}
+    <li>
+        <a href="/categories.html#{{ cat[0] }}-ref" title="分类:{{ cat[0] }}" >{{ cat[0] }}</a>
+    </li>
+{% endfor %}
+</ul>
+
+<div class="post-heading">
+        文章归档
+</div>
+<ul class="sqlist">
+{% for post in site.posts %}
+{% capture post_year2 %}{{ post.date | date: '%Y' }}{% endcapture %}
+{% if post_year1 != post_year2 %}
+{% assign post_year1 = post_year2 %}
+<li>
+        <a href="/archive.html#yid{{ post_year1 }}">{{ post_year1 }}年</a>
+</li>
+
 </ul>
 </div>
 </div>
