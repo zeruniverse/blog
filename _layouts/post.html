@@ -23,7 +23,7 @@ layout: default
 		{% if page.tags != "" and page.tags != nil %}
         <span><i class="fa fa-ellipsis-v"></i></span>
         <span>
-            标签:
+            标签: <p>{{ page.tags }}</p>
             {% for tag in page.tags %}
             <a href="/tags.html#{{ tag }}-ref">{{ tag }}</a>
             {% endfor %}
