@@ -8,16 +8,9 @@ paginate: 5
 paginate_path: "/:num/"
 
 navigation:
-  - text: Home
-    url: /
-  - text: About
-    url: /about.html
-  - text: Categories
-    url: /categories.html
-  - text: Tags
-    url: /tags.html
+  - text: RSS
+    url: /feed.xml
 
-read_more: Read More
 env: production
 minify_html: true # Set to true only when it is production. Increase significant build time.
 
