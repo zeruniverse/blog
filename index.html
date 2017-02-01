@@ -24,9 +24,9 @@ permalink: /
     </div>
 	{% if post.hgimg %}
 		{% if post.fullhgimg %}
-			<a alt="点击查看大图" href="/postimg/{{ post.fullhgimg }}"><img src="/postimg/{{ post.hgimg }}" width="100%"></a>
+			<div style="margin-top: 10px;margin-bottom:5px; display:table-cell; vertical-align:middle; text-align:center"><a alt="点击查看大图" href="/postimg/{{ post.fullhgimg }}"><img src="/postimg/{{ post.hgimg }}" width="60%"></a></div>
 		{% else %}
-			<div><img src="/postimg/{{ post.hgimg }}" width="100%"></div>
+			<div style="margin-top: 10px;margin-bottom:5px; display:table-cell; vertical-align:middle; text-align:center"><img src="/postimg/{{ post.hgimg }}" width="60%"></div>
 		{% endif %}
 	{% endif %}
     <div class="post-entry">
