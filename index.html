@@ -24,9 +24,9 @@ title: 主页
     </div>
 	{% if post.hgimg %}
 		{% if post.fullhgimg %}
-			<div><a alt="点击查看大图" href="/postimg/{{ post.fullhgimg }}"><img alt="点击查看大图" src="/postimg/{{ post.hgimg }}" style="vertical-align: middle;margin-top: 15px;margin-bottom:5px;border: 5px solid;border-radius: 25px;border-color: #fff;" width="100%" /></a></div>
+			<div><a href="/postimg/{{ post.fullhgimg }}"><img class="hgimg" title="点击查看大图" src="/postimg/{{ post.hgimg }}" width="100%" /></a></div>
 		{% else %}
-			<div><img src="/postimg/{{ post.hgimg }}" style="vertical-align: middle;margin-top: 15px;margin-bottom:5px;border: 5px solid;border-radius: 25px;border-color: #fff;" width="100%" /></div>
+			<div><img src="/postimg/{{ post.hgimg }}" class="hgimg" width="100%" /></div>
 		{% endif %}
 	{% endif %}
     <div class="post-entry">
