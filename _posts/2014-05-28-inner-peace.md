@@ -4,8 +4,6 @@ title: 归于平静
 date: 2014-05-28T00:20:07+00:00
 author: ZerUniverse
 layout: post
-guid: http://zzeyu.com/wordpress/?p=84
-permalink: /archives/84
 categories:
   - 迷惘与探索
 ---
