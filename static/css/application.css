@@ -96,6 +96,13 @@ h3 {
   margin: 0 8%;
   width: auto;
 }
+.page-content-post {
+  margin: 0 0 1.5em;
+  padding-bottom: 3.5em;
+  position: relative;
+  padding-left: 15%;
+  padding-right: 15%;
+}
 hr{
 	border-top: 1px solid #000
 }
@@ -219,7 +226,6 @@ hr{
 
 .post-pager {
   margin-bottom: 5px;
-  border-bottom: 1px dashed #aaa;
 }
 .pager {
   list-style: none;
@@ -306,16 +312,21 @@ hr{
 	        z-index:-6;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 991px) {
   .page-container {
     margin: 1em 1em;
   }
-  @media (max-width: 800px) {
   body {
     margin: 0 auto;
 	background: url("/static/img/800pxbg.jpg") repeat fixed;
   }
   #bbg{
 	display:none;
+  }
+  .page-content-post {
+	margin: 0 0 1.5em;
+	padding-bottom: 3.5em;
+	position: relative;
+	border-bottom: 1px solid #000;
   }
 }
