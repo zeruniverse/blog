@@ -4,7 +4,7 @@ title: 主页
 permalink: /
 ---
 <div class="row">
-<div class="col-md-8 col-sm-12">
+<div class="col-md-9 col-sm-12">
 {% for post in paginator.posts %}
 <div class="page-content">
     <div class="post-heading">
@@ -31,7 +31,7 @@ permalink: /
 		{% endif %}
 	{% endif %}
     <div class="post-entry">
-        {{  post.excerpt }}...
+        {{  post.excerpt | strip_html }}...
     </div>
     <div class="post-footer">
         <div class="read-more">
@@ -93,7 +93,7 @@ permalink: /
     </ul>
 </div>
 </div>
-<div class="col-md-4 col-sm-12">
+<div class="col-md-3 col-sm-12">
 <div class="page-content" style="border-bottom:0;">
     <div class="post-heading">
         相关链接
