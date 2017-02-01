@@ -294,4 +294,12 @@ h3 {
   .page-container {
     margin: 0 auto;
   }
+  @media (max-width: 800px) {
+  .page-container {
+    margin: 0 auto;
+	background: url("/static/img/800pxbg.jpg") repeat fixed;
+  }
+  #bbg{
+	display:none;
+  }
 }
