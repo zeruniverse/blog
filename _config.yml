@@ -5,7 +5,7 @@ description: 一些纯粹的思考
 hgimgcount: 8
 
 paginate: 5
-paginate_path: "/:num/"
+paginate_path: "/page:num/"
 
 navigation:
   - text: RSS
