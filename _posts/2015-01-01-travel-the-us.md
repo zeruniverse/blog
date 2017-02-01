@@ -4,14 +4,12 @@ title: 美国游
 date: 2015-01-01T03:29:40+00:00
 author: ZerUniverse
 layout: post
-guid: http://rainaudience.net/?p=208
-permalink: /archives/208
+fullhgimg: 2015ustravel-full.jpg
+hgimg: 2015ustravel.jpg
 categories:
   - 在路上
 ---
-[<img class="alignnone size-full wp-image-209" src="http://rainaudience.net/wp-content/uploads/2014/12/IMG_2125-e1419993841767.jpg" alt="IMG_2125" width="2032" height="783" srcset="http://www.rainaudience.net/wp-content/uploads/2014/12/IMG_2125-e1419993841767.jpg 2032w, http://www.rainaudience.net/wp-content/uploads/2014/12/IMG_2125-e1419993841767-300x115.jpg 300w, http://www.rainaudience.net/wp-content/uploads/2014/12/IMG_2125-e1419993841767-1024x394.jpg 1024w, http://www.rainaudience.net/wp-content/uploads/2014/12/IMG_2125-e1419993841767-500x192.jpg 500w" sizes="(max-width: 2032px) 100vw, 2032px" />](http://rainaudience.net/wp-content/uploads/2014/12/IMG_2125-e1419993841767.jpg)
-
-传说，纽约每个圣诞周都会点亮全球最大的圣诞树。正是由于这个不可证实的传说，我们策划了这场美国东部旅行。虽说我们最终没能见到那棵无比浪漫的圣诞树，但不得不承认这确实是一次难忘的旅行。
+传说，纽约每个圣诞周都会点亮全球最大的圣诞树。正是由于这个不可证实的传说，我们策划了这场美国东部旅行。虽说我们最终没能见到那棵无比浪漫的圣诞树，但不得不承认这确实是一次难忘的旅行<!--more-->。
 
 &nbsp;
 
