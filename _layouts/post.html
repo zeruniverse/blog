@@ -11,19 +11,19 @@ layout: default
             发布时间:
             <a href="{{ page.url }}">{{ page.date | date:"%Y年%m月%d日" }}</a>
         </span>
-		{% if page.categories != "" and page.categories != nil  %}
+		{% if page.categories != and page.categories != blank and page.categories != "" and page.categories != nil  %}
         <span><i class="fa fa-ellipsis-v"></i></span>
         <span>
-            分类: <p>{{ page.categories }}</p>
+            分类: 
             {% for cat in page.categories %}
             <a href="/categories.html#{{ cat }}-ref">{{ cat }}</a>
             {% endfor %}
         </span>
 		{% endif %}
-		{% if page.tags != "" and page.tags != nil %}
+		{% if page.tags != and page.tags != blank and page.tags != "" and page.tags != nil %}
         <span><i class="fa fa-ellipsis-v"></i></span>
         <span>
-            标签: <p>{{ page.tags }}</p>
+            标签: 
             {% for tag in page.tags %}
             <a href="/tags.html#{{ tag }}-ref">{{ tag }}</a>
             {% endfor %}
