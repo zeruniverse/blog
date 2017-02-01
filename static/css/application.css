@@ -282,6 +282,11 @@ hr{
 .page-tags a:focus {
   color: #fff;
 }
+.sqlist{
+	list-style: square;
+	margin: 0;
+	font-size:15px;
+}
 #bbg{
 		position:fixed;
 		top:0;

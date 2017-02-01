@@ -94,11 +94,15 @@ permalink: /
 </div>
 </div>
 <div class="col-md-3 col-sm-12">
-相关链接:
-<ul>
+<div class="page-content">
+    <div class="post-heading">
+        相关链接
+    </div>
+<ul class="sqlist">
 {% for nav in site.navigation %}
 	<li><a href="{{nav.url}}">{{nav.text}}</a></li>
 {% endfor %}
 </ul>
+</div>
 </div>
 </div>
