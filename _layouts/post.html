@@ -26,6 +26,13 @@ layout: default
             {% endfor %}
         <span>
     </div>
+	{% if post.hgimg %}
+		{% if post.fullhgimg %}
+			<div><a alt="点击查看大图" href="/postimg/{{ post.fullhgimg }}"><img src="/postimg/{{ post.hgimg }}" style="vertical-align: middle;margin-top: 15px;margin-bottom:5px;border: 5px solid;border-radius: 25px;border-color: #fff;" width="100%"></a></div>
+		{% else %}
+			<div><img src="/postimg/{{ post.hgimg }}" style="vertical-align: middle;margin-top: 15px;margin-bottom:5px;border: 5px solid;border-radius: 25px;border-color: #fff;" width="100%"></div>
+		{% endif %}
+	{% endif %}
     <div class="post-entry">
         {{ content }}
     </div>
