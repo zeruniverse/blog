@@ -2,6 +2,7 @@
 layout: post
 title: Markdown 语法说明(简体中文版)
 categories: jekyll
+hgimg: winter.jpg
 tags:  markdown
 ---
 

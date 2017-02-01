@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Homepage
+title: 主页
 permalink: /
 ---
 
@@ -22,6 +22,13 @@ permalink: /
             {% endfor %}
         </span>
     </div>
+	{% if post.hgimg %}
+		{% if post.fullhgimg %}
+			<a alt="点击查看大图" href="/postimg/{{ post.fullhgimg }}"><img src="/postimg/{{ post.hgimg }}" width="100%"></a>
+		{% else %}
+			<div><img src="/postimg/{{ post.hgimg }}" width="100%"></div>
+		{% endif %}
+	{% endif %}
     <div class="post-entry">
         {{  post.excerpt }}
     </div>
