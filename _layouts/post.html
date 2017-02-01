@@ -14,7 +14,7 @@ layout: default
 		{% if page.categories != "" and page.categories != nil  %}
         <span><i class="fa fa-ellipsis-v"></i></span>
         <span>
-            分类:
+            分类: <p>{{ page.categories }}</p>
             {% for cat in page.categories %}
             <a href="/categories.html#{{ cat }}-ref">{{ cat }}</a>
             {% endfor %}
