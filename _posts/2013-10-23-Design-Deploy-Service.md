@@ -3,6 +3,8 @@ layout: post
 title: 转载-On Designing and Deploying Internet-Scale Services(译)
 categories: 转载
 tags: 服务设计
+hgimg: winter.jpg
+fullhgimg:winter.jpg
 ---
 
 作者：James Hamilton – Windows Live Services Platform 2007
