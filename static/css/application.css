@@ -301,8 +301,9 @@ hr{
 	margin: 0;
 	font-size:15px;
 	font-weight: bold;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Microsoft YaHei";
     padding-left: 15px;
+	color:#666;
 }
 .pagination > li > a,
 .pagination > li > span {
