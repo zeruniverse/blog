@@ -4,14 +4,14 @@ title: 起点
 date: 2014-11-08T16:03:28+00:00
 author: ZerUniverse
 layout: post
-guid: http://zzeyu.com/wordpress/?p=178
-permalink: /archives/178
+hgimg: 2014sfu.jpg
+fullhgimg: 2014sfu-full.jpg
 categories:
   - SFU
 ---
-[<img class="alignnone wp-image-182 size-large" src="http://www.rainaudience.net/wp-content/uploads/2014/10/Courtyard-Academic-Quadrangle-SFU-Burnaby-British-Columbia-Canada-04-A-e1413687078427-1024x450.jpg" alt="" width="584" height="257" srcset="http://www.rainaudience.net/wp-content/uploads/2014/10/Courtyard-Academic-Quadrangle-SFU-Burnaby-British-Columbia-Canada-04-A-e1413687078427-1024x450.jpg 1024w, http://www.rainaudience.net/wp-content/uploads/2014/10/Courtyard-Academic-Quadrangle-SFU-Burnaby-British-Columbia-Canada-04-A-e1413687078427-300x131.jpg 300w, http://www.rainaudience.net/wp-content/uploads/2014/10/Courtyard-Academic-Quadrangle-SFU-Burnaby-British-Columbia-Canada-04-A-e1413687078427-500x219.jpg 500w" sizes="(max-width: 584px) 100vw, 584px" />](http://www.rainaudience.net/wp-content/uploads/2014/10/Courtyard-Academic-Quadrangle-SFU-Burnaby-British-Columbia-Canada-04-A-e1413687078427.jpg)眨眼间，我已来到这座城市两个月了。开始一段截然不同的生活并非易事，庆幸的是，我正在渐渐地适应这里的一切。
+眨眼间，我已来到这座城市两个月了。开始一段截然不同的生活并非易事，庆幸的是，我正在渐渐地适应这里的一切。
 
-温哥华给人的第一感觉就是美丽。这里的天空永远是最为纯净的蓝色，蓝的让人心头为之一颤。站在任何地方，放眼望去，都能看到一片片树林，仿佛置身于景区。秋天，满地的枫叶，更是展现出枫叶之国的魅力。我的学校在本拿比山上，从教学楼到食堂，整个校区的建筑都相互连通，浑然一体。不刷漆的建筑外墙及镂空的教学楼更是体现了这所学校独特的建筑风格。学校的北边是一座雪山，因此找方向是非常容易的，看到了雪山便找到了北。
+温哥华给人的第一感觉就是美丽。这里的天空永远是最为纯净的蓝色，蓝的让人心头为之一颤。站在任何地方，放眼望去<!--more-->，都能看到一片片树林，仿佛置身于景区。秋天，满地的枫叶，更是展现出枫叶之国的魅力。我的学校在本拿比山上，从教学楼到食堂，整个校区的建筑都相互连通，浑然一体。不刷漆的建筑外墙及镂空的教学楼更是体现了这所学校独特的建筑风格。学校的北边是一座雪山，因此找方向是非常容易的，看到了雪山便找到了北。
 
 刚进入学校，做饭成了一个问题。开学前的几天，跟同学一起去买了厨具准备自己做饭，然而事情并不如意，第一餐饭我们花了将近三个小时。于是第二天我买了学校的餐饮计划。学校食堂的菜味道并不好，而且能吃的蔬菜少的可怜，但至少能吃饱。习惯学校食堂的菜大约花了我一周左右的时间，其中不得不说的一点是食堂的冰淇淋却出奇的好吃。
 
