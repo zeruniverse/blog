@@ -11,7 +11,6 @@ layout: default
             发布时间:
             <a href="{{ page.url }}">{{ page.date | date:"%Y年%m月%d日" }}</a>
         </span>
-		{% if page.categories != and page.categories != blank and page.categories != "" and page.categories != nil  %}
         <span><i class="fa fa-ellipsis-v"></i></span>
         <span>
             分类: 
@@ -19,8 +18,7 @@ layout: default
             <a href="/categories.html#{{ cat }}-ref">{{ cat }}</a>
             {% endfor %}
         </span>
-		{% endif %}
-		{% if page.tags != and page.tags != blank and page.tags != "" and page.tags != nil %}
+		{% if page.showtag %}
         <span><i class="fa fa-ellipsis-v"></i></span>
         <span>
             标签: 
