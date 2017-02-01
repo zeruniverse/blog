@@ -287,6 +287,10 @@ hr{
 	margin: 0;
 	font-size:15px;
 }
+.pagination > li > a,
+.pagination > li > span {
+	background-color:transparent;
+}
 #bbg{
 		position:fixed;
 		top:0;
