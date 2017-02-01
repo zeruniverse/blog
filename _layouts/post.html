@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="page-content">
+<div class="page-content-post">
     <div class="post-heading">
         {{ page.title }}
     </div>
@@ -11,6 +11,7 @@ layout: default
             发布时间:
             <a href="{{ page.url }}">{{ page.date | date:"%Y年%m月%d日" }}</a>
         </span>
+		{% if page.categories %}
         <span><i class="fa fa-ellipsis-v"></i></span>
         <span>
             分类:
@@ -18,13 +19,16 @@ layout: default
             <a href="/categories.html#{{ cat }}-ref">{{ cat }}</a>
             {% endfor %}
         </span>
+		{% endif %}
+		{% if page.tags %}
         <span><i class="fa fa-ellipsis-v"></i></span>
         <span>
             标签:
             {% for tag in page.tags %}
             <a href="/tags.html#{{ tag }}-ref">{{ tag }}</a>
             {% endfor %}
-        <span>
+        </span>
+		{% endif %}
     </div>
 	{% if page.hgimg %}
 		{% if page.fullhgimg %}
