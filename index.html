@@ -30,7 +30,11 @@ title: 主页
 		{% endif %}
 	{% endif %}
     <div class="post-entry">
+	{% if (post.excerpt | strip_html) == (post.content | strip_html) %}
+		{{  post.excerpt | strip_html }}
+	{% else %}
         {{  post.excerpt | strip_html }}...<a href="{{ post.url }}">>>阅读全文</a>
+	{% endif %}
     </div>
 </div>
 {% endfor %}
