@@ -4,18 +4,16 @@ title: 我的初恋
 date: 2015-05-03T06:34:44+00:00
 author: ZerUniverse
 layout: post
-guid: http://rainaudience.net/?p=196
-permalink: /archives/196
+fullhgimg: 2015love-full.jpg
+hgimg: 2015love.jpg
 categories:
   - 金色的回忆
 ---
-[<img class="alignnone size-full wp-image-204" src="http://rainaudience.net/wp-content/uploads/2014/11/1920x1080_love-1238820-e1415436385498.jpg" alt="1920x1080_love-1238820" width="1881" height="748" srcset="http://www.rainaudience.net/wp-content/uploads/2014/11/1920x1080_love-1238820-e1415436385498.jpg 1881w, http://www.rainaudience.net/wp-content/uploads/2014/11/1920x1080_love-1238820-e1415436385498-300x119.jpg 300w, http://www.rainaudience.net/wp-content/uploads/2014/11/1920x1080_love-1238820-e1415436385498-1024x407.jpg 1024w, http://www.rainaudience.net/wp-content/uploads/2014/11/1920x1080_love-1238820-e1415436385498-500x198.jpg 500w" sizes="(max-width: 1881px) 100vw, 1881px" />](http://rainaudience.net/wp-content/uploads/2014/11/1920x1080_love-1238820-e1415436385498.jpg)
-
 那天下午，我说我没见过星球杯，被同学说没有童年。
 
 那晚她送了我一桶星球杯，这就是故事的开始。
 
-有一天，我们在QQ上聊到了很晚。我也忘了是从哪聊起的，总之我知道了她喜欢我，我猜她也知道了我喜欢她。
+有一天，我们在QQ上聊到了很晚。我也忘了是从哪聊起的，总之我知道了她喜欢我，我猜她也知道了我喜欢她<!--more-->。
 
 同一个星期的另一个晚上，我约她见面，那是我第一次单独约女生见面。
 
