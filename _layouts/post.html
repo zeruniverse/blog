@@ -23,8 +23,8 @@ layout: default
 	{% endunless %}
 	{% capture difference %} {{ page.tags | size | minus:1 }} {% endcapture %}
         {% unless difference contains '-' %}
-        <span><i class="fa fa-ellipsis-v"></i></span>
-        <span>
+        <span class="hidden-sm"><i class="fa fa-ellipsis-v"></i></span>
+        <span class="hidden-sm">
             标签:
             {% for tag in page.tags %}
             <a href="/tags.html#{{ tag }}-ref">{{ tag }}</a>
