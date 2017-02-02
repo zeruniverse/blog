@@ -23,7 +23,7 @@ layout: default
 		{% if page.tags | array_to_sentence_string | rstrip | lstrip | size != 0 %}
         <span><i class="fa fa-ellipsis-v"></i></span>
         <span>
-            标签: 
+            标签: {{ page.tags | array_to_sentence_string | rstrip | lstrip | size }}
             {% for tag in page.tags %}
             <a href="/tags.html#{{ tag }}-ref">{{ tag }}</a>
             {% endfor %}
