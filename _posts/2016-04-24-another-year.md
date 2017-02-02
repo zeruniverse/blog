@@ -4,12 +4,12 @@ title: 又一年
 date: 2016-04-24T17:24:48+00:00
 author: ZerUniverse
 layout: post
-guid: http://www.rainaudience.net/?p=330
-permalink: /archives/330
+hgimg: 2016rail.jpg
+fullhgimg: 2016rail-full.jpeg
 categories:
   - 加拿大
 ---
-<a href="http://www.rainaudience.net/wp-content/uploads/2016/04/image.jpeg" rel="attachment wp-att-331"><img class="alignnone size-full wp-image-331" src="http://www.rainaudience.net/wp-content/uploads/2016/04/image.jpeg" alt="image" width="640" height="427" srcset="http://www.rainaudience.net/wp-content/uploads/2016/04/image.jpeg 640w, http://www.rainaudience.net/wp-content/uploads/2016/04/image-300x200.jpeg 300w, http://www.rainaudience.net/wp-content/uploads/2016/04/image-450x300.jpeg 450w" sizes="(max-width: 640px) 100vw, 640px" /></a>刚来加拿大的时候，我英语讲得不好。当跟人说话说到一半断词的时候我总是说：“抱歉，我才来加拿大X个月”，然后总是能得到诸如“不不不，你英语讲得挺好的。刚来几个月能讲成这样很不错了”的回复。虽然我现在英语讲得还是不好，但我忽然发现我再也不能用这个借口了。而记忆里，上一次用这个借口仿佛就在昨天。
+刚来加拿大的时候，我英语讲得不好。当跟人说话说到一半断词的时候我总是说：“抱歉，我才来加拿大X个月”，然后总是能得到诸如“不不不，你英语讲得挺好的。刚来几个月能讲成这样很不错了”的回复。虽然我现在英语讲得还是不好，但我忽然发现我再也不能用这个借口了。而记忆里，上一次用这个借口仿佛就在昨天<!--more-->。
 
 一年里，从找实习失败到找到实习，从期待实习到实习结束，从决定工作到决定读研。这一年发生了很多事，但细想又好像普普通通，就这么飞快地过去了。记忆大概是以光速运动的吧，所以每一个在当时看来都无比漫长过程，在记忆中都会成为一瞬。
 
