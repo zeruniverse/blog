@@ -16,7 +16,7 @@ layout: null
 					<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
 				{% endif %}        
 				{% if post.excerpt %}
-					<description>{{ {{  post.excerpt | rstrip | append: '.@marklastp@.' | remove: '</p>.@marklastp@.' }}... (点击链接阅读全文)</p> | xml_escape }}</description>
+					<description>{{  post.excerpt | rstrip | append: '.@marklastp@.' | remove: '</p>.@marklastp@.' | append: "... (点击链接阅读全文)</p>"| xml_escape }}</description>
 				{% else %}
 					<description>{{ post.content | xml_escape }}</description>
 				{% endif %}
