@@ -4,16 +4,13 @@ title: 随遇而安
 date: 2016-03-05T15:02:59+00:00
 author: ZerUniverse
 layout: post
-guid: http://www.rainaudience.net/?p=326
-permalink: /archives/326
+hgimg: 2016dandelion.jpg
 categories:
   - 迷惘与探索
 ---
-<a href="http://www.rainaudience.net/wp-content/uploads/2016/03/dandelionclock.jpg" rel="attachment wp-att-327"><img class="alignnone size-full wp-image-327" src="http://www.rainaudience.net/wp-content/uploads/2016/03/dandelionclock.jpg" alt="dandelionclock" width="590" height="288" srcset="http://www.rainaudience.net/wp-content/uploads/2016/03/dandelionclock.jpg 590w, http://www.rainaudience.net/wp-content/uploads/2016/03/dandelionclock-300x146.jpg 300w, http://www.rainaudience.net/wp-content/uploads/2016/03/dandelionclock-500x244.jpg 500w" sizes="(max-width: 590px) 100vw, 590px" /></a>
-
 作为一个理性的，相信科学的人，本不应该谈论什么命运。但过去20多年的人生经历却让我一定程度上成为了一个宿命论者。可以说正是很多很多的巧合塑造了今天的我，而这些巧合中许多又是不可抗力的。
 
-生活跟“大富翁”这个游戏很像，每一个选择就像掷一次骰子。有的时候我有道具，能够控制骰子是几点，但多数时候这就是一个随机数，甚至另一些时候，上帝直接帮我掷了，我连骰子都没碰到。生活中凡是举棋不定的选择最后往往都是挺随机的。对于一个选择来说，如果一个选项明显好于另一个，那么也不需要举棋不定了，最后剩下的差不多的选项里，我们也无非是抛个骰子，哪面朝上选哪个，选完以后再编造出各种理由来支持这个选择。
+生活跟“大富翁”这个游戏很像<!--more-->，每一个选择就像掷一次骰子。有的时候我有道具，能够控制骰子是几点，但多数时候这就是一个随机数，甚至另一些时候，上帝直接帮我掷了，我连骰子都没碰到。生活中凡是举棋不定的选择最后往往都是挺随机的。对于一个选择来说，如果一个选项明显好于另一个，那么也不需要举棋不定了，最后剩下的差不多的选项里，我们也无非是抛个骰子，哪面朝上选哪个，选完以后再编造出各种理由来支持这个选择。
 
 统计与概率并不能增大个体命运的确定性，因为这些方法都不适用于小样本，更别说一个个体。只要某件事的概率不是1，它的对立面就有可能发生，而只要它的对立面发生，那么对于个体来说，这个对立面发生的概率就是百分之百。即使一辈子所有的选择加起来可以构成一个大样本，某一次选择的结果仍然可能走向一个极端，而一个极端足以将人生改写。
 
