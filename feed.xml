@@ -9,6 +9,7 @@ layout: null
 		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>		
 		<link>{{ site.url }}</link>
 		<atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
+		<generator>Jekyll</generator>
 		<language>zh-CN</language>
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 		{% for post in site.posts limit:10 %}

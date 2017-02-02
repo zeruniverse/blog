@@ -52,7 +52,7 @@ title: 主页
     {% endif %}
         <li><a href="/">首页</a></li>
     {% if 3 < paginator.page %}
-         <li><a class="disabled">...</a></li>
+         <li class="hidden-xs"><a class="disabled">...</a></li>
     {% endif %}
     {% for count in (page_begin..page_end) %}
     {% if 1 == count %} 
@@ -70,7 +70,7 @@ title: 主页
     {% endif %}
     {% endfor %}
     {% if page_end < paginator.total_pages %}
-        <li><a class="disabled">...</a></li>
+        <li class="hidden-xs"><a class="disabled">...</a></li>
     {% endif %}
     {% if paginator.total_pages == 1 %}
         <li><a href="/">尾页</a></li>
