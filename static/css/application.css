@@ -278,8 +278,8 @@ hr{
   background: transparent;
 }
 .page-pagination .pagination li a.active {
-  color: #1982d1;
-  text-decoration: underline;
+  color: #000;
+  font-weight: bold;
 }
 .page-pagination .pagination li a:hover,
 .page-pagination .pagination li a:focus {
