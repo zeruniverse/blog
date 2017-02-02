@@ -4,16 +4,14 @@ title: 极光之旅
 date: 2015-12-28T23:15:57+00:00
 author: ZerUniverse
 layout: post
-guid: http://www.rainaudience.net/?p=303
-permalink: /archives/303
+hgimg: 2015norlight.jpg
+fullhgimg: 2015norlight-full.jpg
 categories:
   - 在路上
 ---
-<a href="http://www.rainaudience.net/wp-content/uploads/2015/12/IMG_4038.jpg" rel="attachment wp-att-304"><img class="alignnone wp-image-304 size-full" src="http://www.rainaudience.net/wp-content/uploads/2015/12/IMG_4038-e1451315389168.jpg" alt="IMG_4038" width="1036" height="408" srcset="http://www.rainaudience.net/wp-content/uploads/2015/12/IMG_4038-e1451315389168.jpg 1036w, http://www.rainaudience.net/wp-content/uploads/2015/12/IMG_4038-e1451315389168-300x118.jpg 300w, http://www.rainaudience.net/wp-content/uploads/2015/12/IMG_4038-e1451315389168-768x302.jpg 768w, http://www.rainaudience.net/wp-content/uploads/2015/12/IMG_4038-e1451315389168-1024x403.jpg 1024w, http://www.rainaudience.net/wp-content/uploads/2015/12/IMG_4038-e1451315389168-500x197.jpg 500w" sizes="(max-width: 1036px) 100vw, 1036px" /></a>
-
 _**第零天**_
 
-实习刚结束，睡了个午觉（3pm－11pm）便与同学前往机场。我们的飞机在早上6点，因此我们约定坐前一晚最后一辆公交去机场。到了机场，吃了一个简单的晚餐就开始玩联机游戏。机场的网速确实感人，18MB/s应该是我见过最快的速度之一了。母亲听说我要去北极附近，特地给我带了一些冬装。差不多在凌晨4点，我换上超级厚的棉裤和羽绒大衣，然后就去安检登机了。在温哥华穿上这些衣服，就好像来到了夏天。
+实习刚结束，睡了个午觉（3pm－11pm）便与同学前往机场。我们的飞机在早上6点，因此我们约定坐前一晚最后一辆公交去机场。到了机场，吃了一个简单的晚餐就开始玩联机游戏。机场的网速确实感人，18MB/s应该是我见过最快的速度之一了。母亲听说我要去北极附近，特地给我带了一些冬装。差不多在凌晨4点，我换上超级厚的棉裤和羽绒大衣，然后就去安检登机了。在温哥华穿上这些衣服，就好像来到了夏天<!--more-->。
 
 &nbsp;
 
