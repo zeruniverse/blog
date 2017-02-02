@@ -11,7 +11,8 @@ layout: default
             发布时间:
             <a href="{{ page.url }}">{{ page.date | date:"%Y年%m月%d日" }}</a>
         </span>
-		{% unless page.categories | array_to_sentence_string | rstrip | lstrip | size == 0 %}
+	{% capture difference %} {{ page.categories | size | minus:1 }} {% endcapture %}
+        {% unless difference contains '-' %}
         <span><i class="fa fa-ellipsis-v"></i></span>
         <span>
             分类: 
@@ -19,8 +20,9 @@ layout: default
             <a href="/categories.html#{{ cat }}-ref">{{ cat }}</a>
             {% endfor %}
         </span>
-		{% endunless %}
-		{% unless page.tags | array_to_sentence_string | rstrip | lstrip | size == 0 %}
+	{% endunless %}
+	{% capture difference %} {{ page.tags | size | minus:1 }} {% endcapture %}
+        {% unless difference contains '-' %}
         <span><i class="fa fa-ellipsis-v"></i></span>
         <span>
             标签:
@@ -28,7 +30,7 @@ layout: default
             <a href="/tags.html#{{ tag }}-ref">{{ tag }}</a>
             {% endfor %}
         </span>
-		{% endunless %}
+	{% endunless %}
     </div>
 	{% if page.hgimg %}
 		{% if page.fullhgimg %}
