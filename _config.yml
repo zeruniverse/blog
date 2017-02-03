@@ -13,7 +13,7 @@ navigation:
     url: /feed.xml
 
 env: production
-minify_html: true # Set to true only when it is production. Increase significant build time.
+minify_html: true # Set to false for testing
 
 # Build settings
 markdown: kramdown
@@ -21,6 +21,7 @@ excerpt_separator: "<!--more-->"
 
 gems:
   - jekyll-paginate
+  - octopress-minify-html
   
 exclude:
   - Gemfile
