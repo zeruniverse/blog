@@ -43,9 +43,9 @@ layout: default
     </div>
 	{% if page.hgimg %}
 		{% if page.fullhgimg %}
-			<div><a alt="点击查看大图" href="/postimg/{{ page.fullhgimg }}"><img alt="点击查看大图" src="/postimg/{{ page.hgimg }}" style="vertical-align: middle;margin-top: 15px;margin-bottom:5px;border: 5px solid;border-radius: 25px;border-color: #fff;" width="100%" /></a></div>
+			<div><a alt="点击查看大图" href="/postimg/{{ page.fullhgimg }}"><img alt="点击查看大图" src="/postimg/{{ page.hgimg }}" class="hgimg" width="100%" /></a></div>
 		{% else %}
-			<div><img src="/postimg/{{ page.hgimg }}" style="vertical-align: middle;margin-top: 15px;margin-bottom:5px;border: 5px solid;border-radius: 25px;border-color: #fff;" width="100%" /></div>
+			<div><img src="/postimg/{{ page.hgimg }}" class="hgimg" width="100%" /></div>
 		{% endif %}
 	{% endif %}
     <div class="post-entry">
