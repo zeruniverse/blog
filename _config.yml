@@ -9,8 +9,12 @@ paginate: 5
 paginate_path: "/page:num/"
 
 navigation:
-  - text: RSS
+  - text: 订阅RSS
     url: /feed.xml
+  - text: 我的相册集
+    url: /gallery
+  - text: LOFTER
+    url: http://zzy8200.lofter.com/
 
 # Build settings
 markdown: kramdown
