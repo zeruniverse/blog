@@ -16,6 +16,11 @@ navigation:
 markdown: kramdown
 excerpt_separator: "<!--more-->"
 
+compress_html:
+  clippings: all
+  comments: ["<!--m", "-->"]
+  blanklines: false
+
 gems:
   - jekyll-paginate
   
