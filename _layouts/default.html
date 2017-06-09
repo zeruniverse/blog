@@ -23,11 +23,7 @@ layout: compress
              <h1><a href="/">{{ site.title }}</a></h1>
              <h2>{{ site.description }}</h2>
          </div>
-		 <a href="/" title="{{ site.title }}"><img title="{{ site.title }}" id="hgimg" src="" width="100%"></a>
-		 <script>
-			var imgid=Math.floor((Math.random() * {{ site.hgimgcount }}) + 1);
-			$("#hgimg").attr('src','/static/hgimg/'+imgid+'.jpg');
-		 </script>
+		 <a href="/" title="{{ site.title }}"><img title="{{ site.title }}" id="hgimg" style="display:none" src="" width="100%"></a>
          <div class="page-navbar">
              <div class="page-navbar-container">
                  <ul class="page-nav">
@@ -62,6 +58,13 @@ layout: compress
 			var s = document.getElementsByTagName("script")[0]; 
 			s.parentNode.insertBefore(hm, s);
 	  })();
-    </script>
+	  $( document ).ready(function() {
+			var imgid=Math.floor((Math.random() * {{ site.hgimgcount }}) + 1);
+			var imgpre=new Image();
+			imgpre.src = "/static/hgimg/"+imgid+'.jpg';
+			$("#hgimg").attr('src',imgpre.src);
+			$("#hgimg").show();
+	  });
+	</script>
 </body>
 </html>

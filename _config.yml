@@ -5,6 +5,7 @@ description: 一些纯粹的思考
 hgimgcount: 8
 url: http://www.rainaudience.net
 
+timezone: Asia/Shanghai
 paginate: 5
 paginate_path: "/page:num/"
 
