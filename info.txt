@@ -3,4 +3,4 @@ permalink: /info.txt
 layout: null
 ---
 {{pagniator.total_pages}}
-{{11 |divide_by 2}}
+{{11 |divided_by 2}}
