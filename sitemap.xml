@@ -24,17 +24,23 @@ layout: null
     <loc>{{site.url}}/license.html</loc>
     <lastmod>{{ site.time | date:"%Y-%m-%d"}}</lastmod>
   </url>
-  {% assign page_end = paginator.total_pages %}
-  {% for count in (2..page_end) %}
-  <url>
-    <loc>{{site.url}}/page{{count}}/</loc>
-    <lastmod>{{ site.time | date:"%Y-%m-%d"}}</lastmod>
-  </url>
-  {% endfor %}
+  {% assign pcount = 0 %}
   {% for post in site.posts %}
   <url>
     <loc>{{site.url}}{{post.url}}</loc>
     <lastmod>{% if post.lastmoddate %}{{ post.lastmoddate | date:"%Y-%m-%d"}}{% else %}{{ post.date | date:"%Y-%m-%d" }}{% endif %}</lastmod>
+  </url>
+  {% assign pcount = pcount | plus:1 %}
+  {% endfor %}
+  {% if (pcount | modulo:site.paginate)!=0 %}
+    {% assign gcount = (pcount | divided_by:site.paginate) | plus:1 %}
+  {% else %}
+    {% assign gcount = pcount | divided_by:site.paginate %}
+  {% endif %}
+  {% for count in (2..gcount) %}
+  <url>
+    <loc>{{site.url}}/page{{count}}/</loc>
+    <lastmod>{{ site.time | date:"%Y-%m-%d"}}</lastmod>
   </url>
   {% endfor %}
 </urlset>
