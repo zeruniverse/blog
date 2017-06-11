@@ -27,7 +27,7 @@ layout: null
   <url>
     <loc>{{site.url}}/license.html</loc>
     <lastmod>{{ site.time | date:"%Y-%m-%d"}}</lastmod>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   {% assign pcount = 0 %}
   {% for post in site.posts %}
