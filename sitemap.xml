@@ -7,28 +7,34 @@ layout: null
   <url>
     <loc>{{site.url}}/</loc>
     <lastmod>{{ site.time | date:"%Y-%m-%d" }}</lastmod>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>{{site.url}}/categories.html</loc>
     <lastmod>{{ site.time | date:"%Y-%m-%d" }}</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>{{site.url}}/archive.html</loc>
     <lastmod>{{ site.time | date:"%Y-%m-%d" }}</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>{{site.url}}/about.html</loc>
     <lastmod>{{ site.time | date:"%Y-%m-%d"}}</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>{{site.url}}/license.html</loc>
     <lastmod>{{ site.time | date:"%Y-%m-%d"}}</lastmod>
+    <priority>0.6</priority>
   </url>
   {% assign pcount = 0 %}
   {% for post in site.posts %}
   <url>
     <loc>{{site.url}}{{post.url}}</loc>
     <lastmod>{% if post.lastmoddate %}{{ post.lastmoddate | date:"%Y-%m-%d"}}{% else %}{{ post.date | date:"%Y-%m-%d" }}{% endif %}</lastmod>
+    <priority>0.3</priority>
   </url>
   {% assign pcount = pcount | plus:1 %}
   {% endfor %}
@@ -41,6 +47,7 @@ layout: null
   <url>
     <loc>{{site.url}}/page{{count}}/</loc>
     <lastmod>{{ site.time | date:"%Y-%m-%d"}}</lastmod>
+    <priority>0.5</priority>
   </url>
   {% endfor %}
 </urlset>
