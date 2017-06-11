@@ -1,0 +1,39 @@
+---
+permalink: /sitemap.xml
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{site.url}}/</loc>
+    <lastmod>{{ site.time | date_to_rfc822 }}</lastmod>
+  </url>
+  <url>
+    <loc>{{site.url}}/categories.html</loc>
+    <lastmod>{{ site.time | date_to_rfc822 }}</lastmod>
+  </url>
+  <url>
+    <loc>{{site.url}}/archive.html</loc>
+    <lastmod>{{ site.time | date_to_rfc822 }}</lastmod>
+  </url>
+  <url>
+    <loc>{{site.url}}/about.html</loc>
+    <lastmod>{{ site.time | date_to_rfc822 }}</lastmod>
+  </url>
+  <url>
+    <loc>{{site.url}}/license.html</loc>
+    <lastmod>{{ site.time | date_to_rfc822 }}</lastmod>
+  </url>
+  {% for count in (2..paginator.total_pages) %}
+  <url>
+    <loc>{{site.url}}/page{{count}}/</loc>
+    <lastmod>{{ site.time | date_to_rfc822 }}</lastmod>
+  </url>
+  {% endfor %}
+  {% for post in site.posts %}
+  <url>
+    <loc>{{site.url}}{{post.url}}</loc>
+    <lastmod>{% if post.lastmoddate %}{{ post.lastmoddate | date_to_rfc822 }}{% else %}{{ post.date | date_to_rfc822 }}{% endif %}</lastmod>
+  </url>
+  {% endfor %}
+</urlset>
