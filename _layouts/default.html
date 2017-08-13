@@ -8,7 +8,7 @@ layout: compress
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/static/favicon.ico" rel="shortcut icon">
-	<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml" />
     <link href="/static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
     <link href="/static/css/font-awesome.css" rel="stylesheet" type="text/css" media="all">
     <link href="/static/css/application.css" rel="stylesheet" type="text/css" media="all">
@@ -24,13 +24,6 @@ layout: compress
              <h2>{{ site.description }}</h2>
          </div>
 		 <a href="/" title="{{ site.title }}"><img title="{{ site.title }}" id="hgimg" style="display:none" src="" width="100%"></a>
-	 <script>
-	     var imgid=Math.floor((Math.random() * {{ site.hgimgcount }}) + 1);
-	     var imgpre=new Image();
-	     imgpre.src = "/static/hgimg/"+imgid+'.jpg';
-	     $("#hgimg").attr('src',imgpre.src);
-	     $("#hgimg").show();
-	 </script>
          <div class="page-navbar">
              <div class="page-navbar-container">
                  <ul class="page-nav">
@@ -65,6 +58,13 @@ layout: compress
 			var s = document.getElementsByTagName("script")[0]; 
 			s.parentNode.insertBefore(hm, s);
 	  })();
+	  $( document ).ready(function() {
+			var imgid=Math.floor((Math.random() * {{ site.hgimgcount }}) + 1);
+			var imgpre=new Image();
+			imgpre.src = "/static/hgimg/"+imgid+'.jpg';
+			$("#hgimg").attr('src',imgpre.src);
+			$("#hgimg").show();
+	  });
 	</script>
 </body>
 </html>
