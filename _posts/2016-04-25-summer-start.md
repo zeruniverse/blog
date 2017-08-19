@@ -7,7 +7,7 @@ layout: post
 fullhgimg: 2016sky-full.jpeg
 hgimg: 2016sky.jpg
 categories:
-  - 加拿大
+  - SFU
 ---
 终于痛苦地熬过了温哥华的雨季。从去年秋天到现在，温哥华已经下了无数场雨。记忆中就是每天都在下雨，包括今天。但是夏天总归是要来了。
 

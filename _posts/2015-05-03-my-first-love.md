@@ -7,7 +7,7 @@ layout: post
 fullhgimg: 2015love-full.jpg
 hgimg: 2015love.jpg
 categories:
-  - 金色的回忆
+  - 岁月
 ---
 那天下午，我说我没见过星球杯，被同学说没有童年。
 

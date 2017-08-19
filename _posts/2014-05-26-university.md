@@ -5,7 +5,7 @@ date: 2014-05-26T00:16:29+00:00
 author: ZerUniverse
 layout: post
 categories:
-  - 迷惘与探索
+  - 求是园
 hgimg: 2014univ.jpg
 fullhgimg: 2014univ-full.jpg
 ---

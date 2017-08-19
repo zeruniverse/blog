@@ -7,7 +7,7 @@ layout: post
 fullhgimg: 2015thanksgiving-full.jpg
 hgimg: 2015thanksgiving.jpg
 categories:
-  - 加拿大
+  - SFU
 ---
 又是一年感恩节。天空阴沉沉的，下着雨。还记得去年感恩节一觉睡到下午，然后全班聚在Townhouse #63吃火鸡的情景。
 
