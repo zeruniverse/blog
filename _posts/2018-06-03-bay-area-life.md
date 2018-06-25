@@ -6,7 +6,7 @@ author: ZerUniverse
 fullhgimg: 2018siliconvalley-full.png
 hgimg: 2018siliconvalley.png
 layout: post
-categories: 迷惘与探索
+categories: 美国
 ---
 
 湾区有个更广为人知的名字，叫硅谷。这已经是我在湾区的第三周了，刚来时的新鲜感渐渐淡了下来，对这个地方的生活也有了更加客观的看法。湾区并不是以前想象中的那么完美<!--more-->。
