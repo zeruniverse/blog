@@ -6,4 +6,4 @@ User-Agent: *
 Allow: /
 Disallow: /404.html
 
-Sitemap: http://www.rainaudience.com/sitemap.xml
+Sitemap: http://www.rainaudience.net/sitemap.xml
