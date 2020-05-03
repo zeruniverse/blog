@@ -26,7 +26,6 @@ layout: compress
     <!--[if lt IE 9]><script src="/static/js/html5shiv.js" type="text/javascript"></script><![endif]-->
 </head>
 <body>
-    <div id="bbg"></div>
      <div class="page-container">
      <div class="page-heading">
          <div class="page-brand">
@@ -39,7 +38,7 @@ layout: compress
                  <ul class="page-nav">
                      <li><a href="/">博客</a></li>
 					 <li><a href="/about.html">关于</a></li>
-					 <li><a href="/license.html">内容许可</a></li>                     
+					 <li><a href="/license.html">内容许可</a></li>
                  </ul>
              </div>
          </div>
@@ -54,18 +53,25 @@ layout: compress
      </div>
      </div>
      <script src="/static/js/bootstrap.js" type="text/javascript"></script>
-     <script src="/static/js/snowflakes.js" type="text/javascript"></script>
+     <script src="/static/js/bubbly-bg.js" type="text/javascript"></script>
      <script>
-      var sf = new Snowflakes({
-            container: document.getElementById('bbg'),
-            count: 60,
-            delay: 15,
-        });
+        var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        var h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+        var min_size = Math.min(w, h);
+        bubbly({
+            bubbleFunc: () => `hsla(0, 0%, 100%, ${Math.random() * 0.03})`,
+            bubbles: 30,
+            blur: 10,
+            colorStart: "#466979",
+            colorStop: "#a0bbca",
+            radiusFunc: () =>  min_size * 0.05 + 0.18 * Math.random() * min_size});
+    </script>
+    <script>
 	  var _hmt = _hmt || [];
 	  (function() {
 			var hm = document.createElement("script");
 			hm.src = "//hm.baidu.com/hm.js?fb7e79c60a3b8d7f8a483a4127f8a4b4";
-			var s = document.getElementsByTagName("script")[0]; 
+			var s = document.getElementsByTagName("script")[0];
 			s.parentNode.insertBefore(hm, s);
 	  })();
 	  $( document ).ready(function() {
